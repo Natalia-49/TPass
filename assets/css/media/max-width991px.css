@@ -1,0 +1,32 @@
+@media (max-width: 991px) {    
+    .container_page {        
+        padding: 0 20px;
+    }
+    h1 {
+        font-size: 45px;
+    }
+    .detailing-img-4 {
+        display: none;
+    }
+    .detailing-text-block h3 {
+        font-size: 36px;
+    }
+    .proposition-card {
+        width: 410px;
+    }
+    .group-orders-img-1 {
+        display: none;
+    }
+    .group-orders-img-2 {
+        right: 330px;
+    }
+    .group-orders-img-3 {
+        right: 71px;
+    }
+    .group-orders-img-4 {
+        right: 50px;
+    }
+    .registration h2 {
+        font-size: 45px;
+    }
+}

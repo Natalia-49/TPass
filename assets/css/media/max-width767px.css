@@ -1,0 +1,111 @@
+@media (max-width: 767px) {
+    .container-navbar{
+        margin-bottom: 70px;
+    }
+    .container-row{
+        display: none;
+    }
+    
+    .mobile-menu {
+      display: none;
+      flex-direction: column;
+      background-color: var(--color-white);
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      width: 200px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    .mobile-menu.active {
+      display: flex;
+    }
+    
+    .burger-menu {
+      display: none;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      border: none;
+      background: none;
+      cursor: pointer;
+    }
+    
+    .burger-menu span {
+      width: 25px;
+      height: 3px;
+      background-color: var(--color-text-1);
+    }
+    .banner {
+        margin-bottom: 350px;
+    }
+    .vector-img {
+        right: 0px;
+        bottom: -50px;
+        max-width: 100%;
+    }
+    .banner-img {
+        right: 0px;
+        bottom: -240px;
+        max-width: 100%;
+    }
+    .navigation-item {
+        padding: 16px 16px;
+    }
+    .container-advantages {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .advantage-item {
+        margin: 0 auto;
+        display: block;
+        padding-bottom: 30px;
+    }
+    .advantages img {
+        margin-bottom: 20px;
+    }
+    .detailing-img-block{
+        display: none;
+    }
+    .container_page_detailing {
+        border-radius: 0;        
+    }
+    .detailing .detailing-text-block {
+        margin-left: 0;
+        max-width: 100%;
+    }    
+    .container_page_proposition {
+        flex-direction: column;
+        margin-bottom: 0;
+         max-height: 100%;
+    }
+    .proposition-img {
+        transform: none;
+    }
+    .proposition-img img {
+        max-width: 100%;
+    }
+    .detailing-text-block h3 {        
+        max-width: 100%;
+    }
+    .group-orders-text-block {
+        max-width: 100%;
+    }
+    .registration-row {
+        gap: 20px;
+    }
+    .registration h2 {
+        font-size: 36px;
+    }
+    .container_footer_row {
+    flex-direction: column;
+        gap: 30px;
+    }
+    .container_footer_contacts {
+        flex-direction: column;
+        gap: 30px;
+        padding-left: 100px;
+    }
+}
+
+

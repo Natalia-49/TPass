@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{    
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    background-color: var(--color-white);
+    color: var( --color-text-2);
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+a{    
+    text-decoration: none;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 138%;
+    letter-spacing: 0.02em;
+    color: var(--color-text-1); 
+    max-width: 556px;
+    padding-bottom: 50px;
+}
+h1 span{    
+    color: var(--color-green);
+}
+
+.container{    
+    margin: 0 auto;
+    padding-left: 12px;
+    padding-right: 12px;    
+}

@@ -1,0 +1,38 @@
+@media (max-width: 575px) {
+    h1 {
+        font-size: 40px;
+    }
+    .banner-button {
+        width: 100%;
+    }
+    .proposition-card {
+        width: 100%;
+        height: auto;
+    }
+    .proposition-card-left {
+        margin-left: 0;
+    }
+    .registration-row {
+        flex-direction: column;
+    }
+    .registration-input {
+        width: 100%;
+    }
+    .registration-button {
+        width: 100%;
+    }
+    .container_footer::before, .container_footer::after{
+        display: none;
+    }
+    .container_footer_row {
+        flex-direction: column;
+        gap: 30px;
+        padding: 60px 0;
+    }
+    footer .logo{
+        margin: 0 auto;
+    }
+    .container_footer_contacts_item{
+        padding-left: 0;
+    }
+}

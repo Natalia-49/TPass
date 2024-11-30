@@ -1,0 +1,32 @@
+@media (max-width: 1199px) {
+    .container_page {        
+        padding: 0 40px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    .container-advantages {        
+        gap: 10px;
+    }
+    .container_page_detailing {
+        padding: 0px 100px;
+    }
+    .detailing .detailing-text-block {
+        margin-left: 485px;
+    }
+    .container_group-orders {        
+        padding: 0 40px;
+    }
+    .group-orders-text-block {       
+        max-width: 300px;
+    }
+    footer a {
+        font-size: 12px;
+    }
+    .container_footer_row {
+        padding: 55px 160px 100px 160px;
+    }
+    .container_footer_contacts_item {
+        padding-left: 28px;
+    }
+}
